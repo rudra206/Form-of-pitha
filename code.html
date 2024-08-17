@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form of Pitha</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>please fill up the form </h2>
+        <form>
+            <label for="name"> Your Name:
+                 <input id="name" type="text" placeholder="Your Name">
+            </label>
+
+            <label for="email">Your Email: 
+                <input id="email" type="email" placeholder="Your Email">
+            </label>
+
+            <label for ="phone">Your number: 
+                <input id="phone" type="number" placeholder="Your number" >
+
+            </label>
+            <fieldset>
+                <legend>
+                    Pick one Pitha
+                </legend>
+                <label for="chitoi"> 
+                    <input type="radio" name="pitha" id="chitoi">Chitoi
+                </label>
+                <!-- jodi multiple chose hoy tahole name na dilei hobe -->
+                <!-- multiple option dile name same dilei hobe -->
+<!-- multiple option dile input type radio na diye checkbox diyeu kora jay -->
+
+                <label for="vapa">
+                    <input id="vapa" name="pitha" type="radio">Vapa
+                </label>
+                <label for="puri">
+                    <input id="puri" type="radio" name="pitha">Puri
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one or more </legend>
+                <label for="shorisa">
+                    <input type="checkbox" name="vorta" id="shorisa"> shorisa
+                </label>
+                <label for="shutki">
+                    <!-- <input type="checkbox" name="vorta" id="shutki"> Shutki -->
+                </label>
+                <label for="chili">
+                    <input type="checkbox"
+                    name="vorta" id="chili"> Chili
+                </label>
+
+            </fieldset>
+
+        </form>
+    </section>
+</body>
+
+</html>
